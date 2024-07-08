@@ -20,31 +20,33 @@ nav{
     justify-content: space-between;
     margin: 50px 200px;
 }
+nav ul li{
+   list-style: none;
+   margin-right: 50px;
+}
+nav li a{
+   text-decoration: none;
+   font: 20px;
+}
+.dark-2
+{
+   color: #474747;
+}
+
+nav ul 
+{
+   display: flex;
+   align-items: center;
+}
+
 
 .text-primary
 {
     color: #FD6E0A;
 }
 
-nav ul li{
-    list-style: none;
-    margin-right: 50px;
-}
 
-nav li a{
-    text-decoration: none;
-    font: 20px;
-}
- .dark-2
- {
-    color: #474747;
- }
 
- nav ul 
- {
-    display: flex;
-    align-items: center;
- }
 
  .btn-primary
  {
@@ -93,6 +95,8 @@ nav li a{
  {
     max-width: 580px;
  }
+
+ /* section styles */
 
  .section-title {
 
